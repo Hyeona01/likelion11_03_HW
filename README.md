@@ -1,5 +1,5 @@
 ###### likelion11_03_HW
-# 3주차 인스타그램 레이아웃 과제
+# 3주차 인스타그램 레이아웃 과제 - CSS
 
  ### display : flex
 
@@ -8,8 +8,8 @@
 > 2. align-items : 주축의 수직축을 기준으로 item 배치
 > 3. align-content : wrap 상태에서 행이 2줄 이상이 되었을 때, 수직축을 기준으로 item 배치
 > 4. flex-wrap
-> no-wrap : 아이템이 한 줄을 초과했을 때, 무시하고 이어붙임
-> wrap : 아이템이 한 줄을 초과했을 때, 다음 줄로 줄바꿈
+> - no-wrap : 아이템이 한 줄을 초과했을 때, 무시하고 이어붙임
+> - wrap : 아이템이 한 줄을 초과했을 때, 다음 줄로 줄바꿈
 
 > * item 요소
 >1. flex-basis : 기본 크기 설정(row-너비 / column-높이)
