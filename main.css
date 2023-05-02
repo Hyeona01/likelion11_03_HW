@@ -1,90 +1,88 @@
 * {
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Alkatra', cursive;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
 }
-body{
-    display: flex;
-    width: 650px;
-    height: 100vh;
+.container{
     background-color: black;
     color: white;
-} 
-.container{
-    /* height: 100%; */
+    border: 5px solid rgb(50, 50, 50);
     display: flex;
     flex-direction: column;
-    /* border: 5px solid rgb(50, 50, 50); */
+    width: 650px;
+    height: 100vh;
 }
 .container section{
-    padding: 12px 15px;
+    display: flex;
     align-items: center;
+    padding: 15px 20px;
+}
+#header{
+    border-bottom: 1px solid rgb(50, 50, 50);
+    height: 8%;
+}
+.float_left{
+    float: left;
+}
+#infomation{
+    background-color: rgb(36, 36, 36);
+    height: 10%;
+}
+#infomation .profile{
+    padding: 0px 0px;
+}
+#infomation .right, #icon .right{
+    margin-left: auto;
+    padding: 0px;
+}
+#infomation div{
+    padding-left: 12px;
+}
+#main_picture{
+    padding: 0px 0px;
+    height: 60%;
+}
+#icon{
+    height: 4%;
+    margin: 10px 0px;
+}
+#icon div{
+    padding-right: 30px;
+}
+#like{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 5%;
+}
+#date{
+    padding-top: 0px;
+    height: 10%;
+}
+#gap{
+    padding: 30px 0px;
+    border-top: 1px solid rgb(50, 50, 50);
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+#nav{
+    justify-content: space-around;
+    height: 5%;
 }
 .profile{
     border-radius: 70%;
     overflow: hidden;
     object-fit: cover;
 }
-#header{
-    border-bottom: 1px solid rgb(50, 50, 50);
-}
-#infomation .profile{
-    padding: 0px 0px;
-}
-#infomation{
-    background-color: rgb(36, 36, 36);
-}
-#infomation, #icon{
-    display: flex;
-    flex-wrap: wrap;
-}
-#infomation div{
-    padding-left: 12px;
-}
-#icon div{
-    padding-right: 30px;
-}
-#infomation .right, #icon .right{
-    margin-left: auto;
-}
-#main_picture{
-    padding: 0px 0px;
-}
-#like{
-    padding-bottom: 0px;
-    padding-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-}
-#date{
-    padding-top: 0px;
-    padding-bottom: 100px;
-}
-#gap{
-    padding: 40px 0px;
-    border-top: 1px solid rgb(50, 50, 50);
-    border-bottom: 1px solid rgb(50, 50, 50);
-}
-#nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 .center{
-    text-align: center;
     padding: 5px 0;
+    margin:auto;
 }
 .center > b{
     font-size: 1.2rem;
 }
-.float_left{
-    float: left;
-}
 i{
-    font-size: 25px;
-    margin-top: 5px;
+    font-size: 1.7rem;
 }
 .small{
     font-size: 0.8rem;
