@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
     font-size: 1rem;
-    font-family: 'Alkatlex Sans ra', cursive;
-    font-family: 'IBM PKR', sans-serif;
+    font-family: 'Alkatra', cursive;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 body{
     display: flex;
@@ -10,17 +11,15 @@ body{
     height: 100vh;
     background-color: black;
     color: white;
-}
+} 
 .container{
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
-    /* border-top: 1px solid rgb(68, 68, 68);
-    border-bottom: 1px solid rgb(68, 68, 68); */
-    border: 1px solid rgb(68, 68, 68);
+    /* border: 5px solid rgb(50, 50, 50); */
 }
 .container section{
-    /* border: 1px solid rgb(68, 68, 68); */
-    padding: 10px 10px;
+    padding: 12px 15px;
     align-items: center;
 }
 .profile{
@@ -29,7 +28,7 @@ body{
     object-fit: cover;
 }
 #header{
-    border-bottom: 1px solid rgb(68, 68, 68);
+    border-bottom: 1px solid rgb(50, 50, 50);
 }
 #infomation .profile{
     padding: 0px 0px;
@@ -41,9 +40,11 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-#infomation *, #icon *{
-    flex : none;
-    padding: 0px 10px;
+#infomation div{
+    padding-left: 12px;
+}
+#icon div{
+    padding-right: 30px;
 }
 #infomation .right, #icon .right{
     margin-left: auto;
@@ -52,13 +53,19 @@ body{
     padding: 0px 0px;
 }
 #like{
+    padding-bottom: 0px;
+    padding-top: 0px;
     display: flex;
     flex-wrap: wrap;
 }
+#date{
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
 #gap{
-    flex-grow: 3;
-    border-top: 1px solid rgb(68, 68, 68);
-    border-bottom: 1px solid rgb(68, 68, 68);
+    padding: 40px 0px;
+    border-top: 1px solid rgb(50, 50, 50);
+    border-bottom: 1px solid rgb(50, 50, 50);
 }
 #nav{
     display: flex;
@@ -69,11 +76,14 @@ body{
     text-align: center;
     padding: 5px 0;
 }
+.center > b{
+    font-size: 1.2rem;
+}
 .float_left{
     float: left;
 }
 i{
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 5px;
 }
 .small{
